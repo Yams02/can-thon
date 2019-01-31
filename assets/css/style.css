@@ -13,6 +13,11 @@
   text-align: center;
   color: black;
 }
+.nav-brand{
+  color: blue;
+  font-family: 'Russo One', sans-serif;
+
+}
 .font {
     color: white;
     font-family: 'Russo One', sans-serif;
