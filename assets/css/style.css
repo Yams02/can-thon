@@ -1,8 +1,17 @@
+.backImg{
+  background-image: url('../img/stroumph.png');
+  background-repeat: no-repeat;
+  margin-top: 3em;
+  width: 100%;
+  height:10%;
+  margin-left: 45%
+}
 .titre{
   font-family: 'Great Vibes';
   font-size: 80px;
   text-align: center;
-  color: #FCC4A3;
+  color: black;
+  margin-top: 1em;
 }
 figure {
   margin: 0;
@@ -82,6 +91,9 @@ figure img:nth-child(10), figure img:nth-child(20) {
   text-align: center;
   color: #FCC4A3;
 }
+.text{
+    list-style: none;
+}
 .rules{
   color: #FCC4A3;
   border: 3px #FCC4A3 dashed;
@@ -89,9 +101,45 @@ figure img:nth-child(10), figure img:nth-child(20) {
   font-size: 20px;
 }
 #footer{
-  padding: 15%;
+  padding: 2em;
 }
 #logo{
   height: 50px;
   width: 50px;
+}
+@media screen and (max-width: 480px) {
+  .backImg{
+    background-image: url('../img/stroumph.png');
+    background-repeat: no-repeat;
+    margin-top: 3em;
+    margin-bottom: -7em;
+    width: 100%;
+    height:10%;
+    margin-left: 25%;
+    margin-bottom: 25%;
+  }
+  .text{
+    text-align: center;
+  }
+  figure {
+    margin: 0px;
+    perspective: 1000px;
+    transform-style: preserve-3d;
+    max-width: 100px;
+    padding-bottom: 100%;
+  }
+  figure img {
+    top: 0;
+    left: 50%;
+    position: absolute;
+    transition: 2s;
+    width: 200%;
+    height: auto;
+  }
+  .buttonInfo{
+    margin-top: 25%;
+    margin-bottom: 20%;
+    font-size: 3em;
+  }
+
 }
