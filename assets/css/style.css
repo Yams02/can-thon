@@ -1,17 +1,32 @@
 .backImg{
   background-image: url('../img/stroumph.png');
   background-repeat: no-repeat;
-  margin-top: 3em;
   width: 100%;
-  height:10%;
+  height: 15%;
   margin-left: 45%
 }
 .titre{
+  margin-top: 5%;
   font-family: 'Great Vibes';
-  font-size: 80px;
+  font-size: 7em;
   text-align: center;
   color: black;
-  margin-top: 1em;
+}
+.font{
+    color: white;
+    font-family: 'Russo One', sans-serif;
+}
+.gamepad{
+  font-size: 3em;
+}
+.sous-title{
+  font-family: 'Great Vibes';
+  font-size: 2em;
+  text-align: center;
+}
+.info{
+  font-size: 1em;
+color: red;
 }
 figure {
   margin: 0;
@@ -85,14 +100,12 @@ figure img:nth-child(10), figure img:nth-child(20) {
   margin-top: 5%;
   text-align: center;
   padding: 5%;
+  color: green;
 }
 .wall{
   background-color: #8384B0;
   text-align: center;
   color: #FCC4A3;
-}
-.text{
-    list-style: none;
 }
 .rules{
   color: #FCC4A3;
@@ -111,15 +124,14 @@ figure img:nth-child(10), figure img:nth-child(20) {
   .backImg{
     background-image: url('../img/stroumph.png');
     background-repeat: no-repeat;
-    margin-top: 3em;
-    margin-bottom: -7em;
     width: 100%;
-    height:10%;
+    height:20%;
     margin-left: 25%;
-    margin-bottom: 25%;
+    margin-bottom: -25%;
   }
-  .text{
-    text-align: center;
+  .titre{
+    margin-top: 25%;
+    font-size: 4em;
   }
   figure {
     margin: 0px;
