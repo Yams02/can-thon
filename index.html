@@ -6,7 +6,7 @@
   <link rel="stylesheet" href="assets/css/style.css" type="text/css">
   <link href="assets/bootstrap/css/bootstrap.css" rel="stylesheet">
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
- <link href="https://fonts.googleapis.com/css?family=Russo+One" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Russo+One" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Merienda" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Great+Vibes" rel="stylesheet">
   <script src="assets/lib/jquery-3.3.1.js"></script>
@@ -14,32 +14,31 @@
   <title>Dev Cône</title>
 </head>
 <body>
-  <nav class="navbar navbar-expand-lg navbar-dark bg-dark rounded fixed-top">
-<div class="nav-brand">
-   <p class="font"><a href="index.html">Menu</a></p>
- </div>
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#devCone" aria-controls="devCone" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-    <!--Titre-navbar-->
-    <div class="collapse navbar-collapse justify-content-md-center" id="devCone" >
-      <ul class="navbar-nav">
-        <li class="nav-item active">
-          <a class="nav-link font" href="#header">Acceuil</a>
-        </li>
-        <li class="nav-item active">
-          <a class="nav-link" href="#carousel"><i class="fas fa-gamepad gamepad"></i></a>
-        </li>
-        <li class="nav-item active">
-          <a class="nav-link font" href="#footer">Règlement</a>
-          <li>
+  <div class="container-fluid">
+    <div class="row" id="header">
+      <div class="col-12">
+        <nav class="navbar navbar-dark bg-dark rounded fixed-top">
+          <div class="nav-brand">
+            <p class="font"><a href="index.html">Menu</a></p>
           </div>
-        </nav>
-        <div class="container-fluid">
-          <div class="row" id="header">
-            <div class="col-12">
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#devCone" aria-controls="devCone" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <!--Titre-navbar-->
+          <div class="collapse navbar-collapse justify-content-md-center" id="devCone" >
+            <ul class="navbar-nav">
+              <li class="nav-item active">
+                <a class="nav-link font" href="#header">Acceuil</a>
+              </li>
+              <li class="nav-item active">
+                <a class="nav-link" href="#carousel"><i class="fas fa-gamepad gamepad"></i></a>
+              </li>
+              <li class="nav-item active">
+                <a class="nav-link font" href="#footer">Règlement</a>
+                <li>
+                </div>
+              </nav>
               <header>
-                <hr>
                 <hr>
                 <h1  class="titre">Dev Cône</h1>
                 <h2 class="sous-title">"C'est Dev Cône qui a tué John Lennon"</h2>
@@ -48,7 +47,7 @@
               <div class=" backImg"></div>
               <hr/>
               <!--partie-jeu-->
-              <div class="container wall rounded">
+              <div class="container-fluid wall rounded">
                 <div class="row">
                   <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
                     <hr>
